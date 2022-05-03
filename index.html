@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Project</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody&family=Bree+Serif&family=Inter:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody&family=Bree+Serif&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody&family=Bree+Serif&family=Inter:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="front">
+        <h1 id="heading">Metric/Imperial unit conversion</h1>
+        <input id="number-to-convert" type="number" placeholder="0" min="0" max="999" onchange="convert()"></input>
+        <!-- <div id ="number" on>20</div> -->
+    </section>
+    <section class="back">
+        <div id="length" class="ele">
+            <div class="f1">Length (Meter/Feet)</div>
+            <div class="sf" id="length-con">00 meters = 00.000 feet | 00 feet = 00.000 meters</div>
+        </div>
+        <div id="volume" class="ele">
+            <div class="f1">Volume (Liters/Gallons)</div>
+            <div class="sf" id="vol-con">00 liters = 00.000 gallons | 00 gallons = 00.000 liters</div>
+        </div>
+        <div id="mass" class="ele">
+            <div class="f1">Mass (Kilograms/Pounds)</div>
+            <div class="sf" id="mass-con">00 kilos = 00.000 pounds | 00 pounds = 00.000 kilos</div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
